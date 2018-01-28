@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.megan.profilelogin.MedsActivity">
+
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medications"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metformin"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosage: 500 mg"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/ordered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordered By: Dr. Tran"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/refill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Refill: 01-11-2018"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutSev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequency: Daily"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/penicillin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lotensin"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosage: 30 mg"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/ordered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordered By: Dr. Kay"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/refill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Refill: 03-01-2018"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutSev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequency: Twice a day"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+
+</LinearLayout>

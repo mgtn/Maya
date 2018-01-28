@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context="com.example.megan.profilelogin.AllergiesActivity">
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allergies"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peanut Allergy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of diagnosis: 08-20-1971"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutSev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severity: Extreme"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/penicillin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mild Penicillin Allergy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/penDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of diagnosis: 05-17-2002"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/penSev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severity: Mild"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+</LinearLayout>
+

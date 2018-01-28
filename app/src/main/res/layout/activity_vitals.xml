@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.megan.profilelogin.VitalsActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vitals"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/bp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure: 132/97"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Temperature: 99.1°F"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulse Rate: 87 bpm"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oxygen level: 98%"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/peanutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glucose level: 140 mg/dL"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+
+
+</LinearLayout>
